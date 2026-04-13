@@ -4,21 +4,22 @@ Normally, DraStic only allows manual screen adjustments through its UI, but thes
 Each preset includes a file named LC_2.dat. Place this file into the config folder inside your DraStic data directory. **(I strongly recommend backing up your config folder beforehand.)**
 
 - 80px_h360 - 360×480 (default)  
-  !["80px"](images/80px.png)
+  <img src="images/80px.png" alt="80px" height="40%" width="40%">
 - 40px_h380 - 380×480  
-  !["40px"](images/40px.png)
+  <img src="images/40px.png" alt="40px" height="40%" width="40%">
 - 20px_h390 - 390×480  
-  !["20px"](images/20px.png)
+  <img src="images/20px.png" alt="20px" height="40%" width="40%">
 - 10px_h395 - 395×480  
-  !["10px"](images/10px.png)
+  <img src="images/10px.png" alt="10px" height="40%" width="40%">
 - 00px_h400 - 400×480  
-  !["0px"](images/0px.png)
+  <img src="images/00px.png" alt="00px" height="40%" width="40%">
 
 These reduce the gap between the two screens and extend their height by ignoring the original aspect ratio. The number indicates the gap (in pixels) between the top and bottom screens. Smaller values mean a narrower gap, and 00px removes the gap entirely.
 I tried improving visibility by sacrificing the aspect ratio, but even with a 0px gap (fully gapless), the screen height only increases to about 1.1× the original. So in practice, the improvement is fairly limited.  
 If you want significantly larger screens, I recommend using a DEDICATED OS that allows expanding the overscan area.
 
-- center_40px_40px - 360×480
+- center_40px_40px - 360×480  
+  <img src="images/x80px_c.png" alt="x80px_c" height="40%" width="40%">
 
 This preset keeps the correct aspect ratio and centers both screens with a 40px margin at the top and bottom, resulting in a gapless layout in the middle.
 
